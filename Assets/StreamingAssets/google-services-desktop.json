@@ -7,27 +7,37 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:909242731965:ios:95ba5fce7c11ecebf416d4",
+        "mobilesdk_app_id": "1:909242731965:android:419418d12f771e49f416d4",
         "android_client_info": {
           "package_name": "com.alkahesttest.firebasetest"
         }
       },
       "oauth_client": [
         {
-          "client_id": "909242731965-mes332klodqgkqapkocrq3arhibm9esp.apps.googleusercontent.com"
+          "client_id": "909242731965-78ca4aj1mfsidbfmultj70h1tg4hfa2e.apps.googleusercontent.com",
+          "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBJAouKjsOckXSZOZMGWSFi3ARuw8uxGJA"
+          "current_key": "AIzaSyBlXrXwcsLwT-E2RZ44p-OPbGIw5Ad2VTA"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 0
-        },
         "appinvite_service": {
-          "status": 1
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909242731965-78ca4aj1mfsidbfmultj70h1tg4hfa2e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "909242731965-mes332klodqgkqapkocrq3arhibm9esp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.alkahesttest.firebasetest"
+              }
+            }
+          ]
         }
       }
     }

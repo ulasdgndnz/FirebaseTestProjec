@@ -9,6 +9,7 @@ public class GetNFTData : MonoBehaviour
     
     void Start()
     {
+        print("mjhkjhkj");
         var firestore = FirebaseFirestore.DefaultInstance;
         _listenerRegistration = firestore.Document(_ownerWalletId).Listen(snapshot =>
         {
